@@ -1,7 +1,7 @@
-from Ej_7_Alumno import Alumno
-from Ej_7_Pedido import Pedido
-from Ej_7_Profesor import Profe
-from Ej_7_Plato import Plato
+from Ej_7.Ej_7_Alumno import Alumno
+from Ej_7.Ej_7_Pedido import Pedido
+from Ej_7.Ej_7_Profesor import Profe
+from Ej_7.Ej_7_Plato import Plato
 
 
 class LasBufes(object):

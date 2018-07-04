@@ -1,7 +1,7 @@
-from Ej_7_Bufe import LasBufes
-from Ej_7_Alumno import Alumno
-from Ej_7_Pedido import Pedido
-from Ej_7_Plato import Plato
+from Ej_7.Ej_7_Bufe import LasBufes
+from Ej_7.Ej_7_Alumno import Alumno
+from Ej_7.Ej_7_Pedido import Pedido
+from Ej_7.Ej_7_Plato import Plato
 
 a = Alumno('ALU303','Pedro','Alfonsin','5')
 a1 = Alumno('ALU303','Pedro','Raul','5')

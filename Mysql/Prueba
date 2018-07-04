@@ -1,0 +1,15 @@
+from Mysql.Cliente import Cliente
+import pymysql
+db = pymysql.connect(host = '127.0.0.1',user = 'root',passwd='alumno',db='mydb',charset = 'utf8',autocommit = True)
+a = db.cursor(pymysql.cursors.DictCursor)
+a.execute("select * from Cliente")
+for b  in a:
+    unCliente = Cliente
+    unCliente.idCliente=b['idCliente']
+    unCliente.Nombre=b['Nombre']
+    unCliente.Apellido=b['Apellido']
+    unCliente.Dni=b['Dni']
+    unCliente.Fecha_nac=b['Fecha_Nac']
+    unCliente.Sexo=b['Sexo']
+
+    print(unCliente.idCliente,print(unCliente.Nombre,))

@@ -1,4 +1,4 @@
-from Ej_7_Persona import Persona
+from Ej_7.Ej_7_Persona import Persona
 class Profe(Persona):
     Descuento=None
 

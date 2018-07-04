@@ -1,4 +1,3 @@
-from Ej_7_Bufe import LasBufes
 import time
 class MenuVerga(object):
     print('|---------------------|')
