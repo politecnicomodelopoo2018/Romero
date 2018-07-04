@@ -12,4 +12,4 @@ for b  in a:
     unCliente.Fecha_nac=b['Fecha_Nac']
     unCliente.Sexo=b['Sexo']
 
-    print(unCliente.idCliente,print(unCliente.Nombre,))
+    print(unCliente.idCliente,unCliente.Nombre,unCliente.Apellido)
